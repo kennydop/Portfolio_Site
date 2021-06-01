@@ -1,0 +1,84 @@
+@import url(fonts.css);
+@import url(partials/variables.css);
+@import url(partials/global.css);
+/* header start */
+
+*{
+    font-family: var(--raleway);
+}
+.header_area .main-menu .navbar .navbar-brand img{
+    width: 80%;
+    height: 80%;
+}
+
+.header_area .main-menu .navbar{
+    padding: 2.2rem 6rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font-family: var(--raleway);
+    color: var(--title-color)
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    color: var(--primary-color);
+}
+/* header end */
+
+/* landing page start */
+.site-main .site-banner{
+    background: url("../images/bg-trayl-400.png") no-repeat -2% 30%;
+}
+
+
+.site-main .site-banner .site-title h3{
+    padding-top: 25%;
+    font-size: 2rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-style: italic;
+    font-size: 1.3rem;
+    opacity: 80%;
+}
+
+.banner-image img{
+    border-radius: 100%;
+    padding: 2rem 0;
+    width: 28rem;
+}
+/* landing page end */
+
+/* about page start */
+.about-area{
+    padding: 20% 8%;
+}
+
+.about-image img{
+    border-radius: 100%;
+    width: 28rem;
+}
+/* about page end*/
+
+/* services page start */
+.service-area{
+    padding: 8% 8%;
+}
+.service-text{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.service-description{
+    font-size: medium;
+    text-align: center;
+}
+.call-to-action{
+    width: 100%;
+}
+/* services page end */
+

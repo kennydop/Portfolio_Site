@@ -1,0 +1,19 @@
+html,body{
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+/* CSS variables */
+:root{
+    --primary-color: #924AFF;
+    --title-color: #1D2951;
+    --text-color: #564E62;
+    --seconadry: #48ACF0;
+    --gradient-color: linear-gradient(90deg, #48ACF0, #924AFF 100%);
+    --shadow-color: 0rem 0.2rem 1.2rem #686868;
+    --box-shadow: 0rem .2rem .8rem #919191;
+    --raleway: "Raleway", cursive ;
+    --roboto: "Roboto", cursive;
+}

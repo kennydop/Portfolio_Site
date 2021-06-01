@@ -1,0 +1,93 @@
+.page-title{
+    font-size: 3.8rem;
+    color: var(--primary-color);
+    text-transform: lowercase;
+    letter-spacing: 1rem;
+}
+.service-title{
+    color: var(--seconadry);
+    text-transform: lowercase;
+    text-align: center;
+}
+.title-text{
+    color: var(--title-color);
+    text-transform: lowercase;
+}
+.primary-text{
+    color: var(--title-color);
+    font-size: 1.4rem;
+    text-transform: lowercase;
+}
+.button{
+    padding: 0.5rem 1.6rem !important;
+    font-size: 1rem;
+    position: relative;
+    border: .01rem solid transparent;
+    border-radius: 6%;
+}
+
+.button.primary-button{
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+}
+.button.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: var(--title-color);
+}
+.button.primary-button::after, .button.secondary-button::after, .service-button::after{
+    position: absolute;
+    top:-2px; left:-2px; bottom:-2px; right:-2px;
+    background: var(--gradient-color);
+    content: "";
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.button.secondary-button{
+    background: white;
+    background-clip: padding-box;
+    transition: background .6s ease;
+}
+.button.secondary-button:hover{
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    box-shadow: var(--box-shadow);
+}
+.service-box{
+    height: 20rem;
+    width: 16rem;
+    background: var(--title-color);
+    border-radius: 2%;
+    border: .01rem solid white;
+    box-shadow: var(--box-shadow);
+    padding: 1.5rem 1.2rem;
+    margin-bottom: 5rem;
+    color: white;
+    transition: background .6s ease;   
+}
+
+.service-box:hover{
+    background:whitesmoke;
+    background-clip: padding-box;
+    color: var(--title-color);
+    transform: scale(1.02);
+}
+.service-button{
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: all .6s ease;
+    margin-left: 25%;
+}
+
+.service-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: var(--title-color);
+    border: 1px solid var(--seconadry);
+}
